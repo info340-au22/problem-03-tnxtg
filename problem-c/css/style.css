@@ -22,6 +22,11 @@ section {
   padding: 1em;
 }
 
+main {
+  flex: 1;
+  height: 100%;
+}
+
 main > div {
   display: flex;
   height: 100%;
@@ -60,9 +65,4 @@ div > p {
 
 div > img {
   border-radius: 10px 10px 0 0;
-}
-
-main {
-  flex: 1;
-  height: 100%;
 }
